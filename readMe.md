@@ -1,6 +1,6 @@
-Java8+Cucumber+Appium Set Up
+Java8+Cucumber+Rest Assured Set Up
 
-This is the Mobile Automation stack for the testing of Sample project Vysor 
+This is the Automation stack for the testing of various API
 
 Mobile Setup 
 1. Maven
@@ -11,18 +11,14 @@ Mobile Setup
 3. Java 
    1. Install Java version
    2. Set JAVA_HOME
-4. Android
-   1.Install Android Studio
-   2.Set ANDROID_HOME 
-5. Appium
-   1. Pre-Requisite = Node.js is installed
-   2. https://www.browserstack.com/guide/download-and-install-appium
-   2. Appium Plugins
-6. Allure
-   7. https://allurereport.org/docs/install/
+4. Allure
+   1. https://allurereport.org/docs/install/
+   2. copy paste allure-results to file, and cd to file from repo and allure serve
 
+How to run:
 
+Test Runner file:
+Adjust properties in this file 
 
-Web Setup
-
-Run code with appium --allow-insecure chromedriver_autodownload
+in terminal: 
+mvn clean test 
